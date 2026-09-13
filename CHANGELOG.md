@@ -1,5 +1,17 @@
 # Upcoming
 
+## Note: Dropping Support for OS Versions in Next Release
+
+This is the last Zettlr release shipping with Electron version 43. The next
+release will switch to Electrion version 44, which drops support for the
+following operating systems:
+
+* Ubuntu 17.04 or earlier
+* macOS 12 (Monterey)
+
+Please make sure to update your operating system before the next version of
+Zettlr ships if you are affected by this change.
+
 ## GUI and Functionality
 
 - **Feature**: You can now choose whether you want to automatically accept the
@@ -52,7 +64,7 @@
 
 ## Under the Hood
 
-- Update Electron to `v43.4.0`.
+- Update Electron to `v43.6.0`.
 - Updates to the translations are now deterministic (#6538). This causes minimal
   diffs between iterations and should also reduce the risks for merge conflicts
   between open translation PRs and POT update PRs.
