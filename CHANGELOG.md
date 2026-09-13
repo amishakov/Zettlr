@@ -19,6 +19,8 @@
   2. The window controls now use a transparent background and a light/dark color
      depending on which theme the app is currently using.
   3. Improved the spacing around the menu items to make them less menacing.
+- Fixed the about window's debug tab: No more horizontal scrolling, and the
+  `PATH`-variable is properly split into segments.
 - Fixed an issue where in some places instead of showing you a proper file
   title, the app would default to only showing you the filename, and neither a
   heading or YAML title, if you specified it as such. Now, the logic has been
