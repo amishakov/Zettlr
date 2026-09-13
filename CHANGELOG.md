@@ -24,6 +24,8 @@ Zettlr ships if you are affected by this change.
   between your search terms to mark them as alternatives. By default, the full-
   text search now requires all operators separated by a space to be present in a
   file to be considered a valid result (#6517).
+- **New Translation**: Zettlr now ships with an additional language:
+  Azerbaijani. See PR #6548 for details.
 - Improved the custom title bar style on both Linux (if native appearance is
   turned off) and Windows. Here's what changed:
   1. The logo is now an actual element rather than background, and has been
@@ -54,6 +56,7 @@ Zettlr ships if you are affected by this change.
   - `ca-ES` (#6530).
   - `pt-BR` (#6537).
   - `tr-TR` (#6533).
+  - `az-AZ` (#6548).
 - Renamed "Remove line breaks" to "Remove excess line breaks."
 - Fixed an issue in full text search where multiple search terms separated by
   whitespace would use an 'OR' operator rather than the documented 'AND'
