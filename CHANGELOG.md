@@ -12,6 +12,13 @@
   between your search terms to mark them as alternatives. By default, the full-
   text search now requires all operators separated by a space to be present in a
   file to be considered a valid result (#6517).
+- Improved the custom title bar style on both Linux (if native appearance is
+  turned off) and Windows. Here's what changed:
+  1. The logo is now an actual element rather than background, and has been
+     scaled down to better fit into the menu bar
+  2. The window controls now use a transparent background and a light/dark color
+     depending on which theme the app is currently using.
+  3. Improved the spacing around the menu items to make them less menacing.
 - Fixed an issue where in some places instead of showing you a proper file
   title, the app would default to only showing you the filename, and neither a
   heading or YAML title, if you specified it as such. Now, the logic has been
